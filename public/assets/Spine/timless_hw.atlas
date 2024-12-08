@@ -1,0 +1,62 @@
+
+timless_hw.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bw
+  rotate: false
+  xy: 2, 2
+  size: 391, 98
+  orig: 420, 124
+  offset: 15, 20
+  index: -1
+glow
+  rotate: false
+  xy: 2, 102
+  size: 392, 162
+  orig: 436, 214
+  offset: 24, 18
+  index: -1
+mw
+  rotate: false
+  xy: 2, 373
+  size: 649, 118
+  orig: 680, 148
+  offset: 16, 23
+  index: -1
+placeholder_emitter
+  rotate: false
+  xy: 618, 369
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+placeholder_image
+  rotate: false
+  xy: 618, 369
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+placeholder_totalwin_counter
+  rotate: false
+  xy: 653, 488
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+placeholderTotalWin
+  rotate: false
+  xy: 653, 488
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+sw
+  rotate: false
+  xy: 2, 266
+  size: 614, 105
+  orig: 622, 131
+  offset: 4, 20
+  index: -1

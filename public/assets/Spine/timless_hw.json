@@ -1,0 +1,1306 @@
+{
+  "skeleton": {
+    "hash": "equ/hFqhO1UBBP7OBru6F1MAbnc",
+    "spine": "3.8.99",
+    "images": "K:\\WorkProject\\joker-s-coins-hold-and-win\\src\\assets\\spineAnim\\bigwin\\images",
+    "audio": "D:/Games/JC/spine_project_Ph/../spine_project_JC"
+  },
+  "bones": [
+    { "name": "root" },
+    {
+      "name": "Wins_container",
+      "parent": "root",
+      "rotation": 90,
+      "y": 96
+    },
+    {
+      "name": "Wins_text",
+      "parent": "Wins_container",
+      "x": 35
+    },
+    {
+      "name": "totalwin2",
+      "parent": "root",
+      "color": "fe0101ff"
+    },
+    {
+      "name": "glow2",
+      "parent": "totalwin2",
+      "scaleX": 2,
+      "scaleY": 2,
+      "color": "fd0101ff"
+    }
+  ],
+  "slots": [
+    {
+      "name": "glow2",
+      "bone": "glow2",
+      "color": "ffffff00",
+      "attachment": "glow",
+      "blend": "additive"
+    },
+    {
+      "name": "big_win_placeholder",
+      "bone": "Wins_text",
+      "color": "ffffff00",
+      "attachment": "bw"
+    },
+    {
+      "name": "mega_win_placeholder",
+      "bone": "Wins_text",
+      "color": "ffffff00",
+      "attachment": "mw"
+    },
+    {
+      "name": "mega_win2_placeholder",
+      "bone": "Wins_text",
+      "color": "ffffff00",
+      "attachment": "mw",
+      "blend": "additive"
+    },
+    {
+      "name": "super_win_placeholder",
+      "bone": "Wins_text",
+      "color": "ffffff00",
+      "attachment": "sw"
+    },
+    {
+      "name": "super_win2_placeholder",
+      "bone": "Wins_text",
+      "color": "ffffff00",
+      "attachment": "sw",
+      "blend": "additive"
+    },
+    {
+      "name": "big_win2_placeholder",
+      "bone": "Wins_text",
+      "color": "ffffff00",
+      "attachment": "bw",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "mega_win_placeholder": {
+          "mw": {
+            "x": 14.44,
+            "rotation": -90,
+            "width": 680,
+            "height": 148
+          }
+        },
+        "glow2": {
+          "glow": {
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 436,
+            "height": 214
+          }
+        },
+        "super_win_placeholder": {
+          "sw": {
+            "x": 14.44,
+            "rotation": -90,
+            "width": 622,
+            "height": 131
+          }
+        },
+        "super_win2_placeholder": {
+          "sw": {
+            "x": 14.44,
+            "rotation": -90,
+            "width": 622,
+            "height": 131
+          }
+        },
+        "big_win_placeholder": {
+          "bw": {
+            "x": 14.5,
+            "rotation": -90,
+            "width": 420,
+            "height": 124
+          }
+        },
+        "big_win2_placeholder": {
+          "bw": {
+            "x": 14.5,
+            "rotation": -90,
+            "width": 420,
+            "height": 124
+          }
+        },
+        "mega_win2_placeholder": {
+          "mw": {
+            "x": 12.42,
+            "rotation": -90,
+            "width": 680,
+            "height": 148
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "BigWin": {
+      "slots": {
+        "big_win_placeholder": { "color": [ { "color": "ffffffff" } ] },
+        "mega_win2_placeholder": { "attachment": [ { "name": null } ] },
+        "super_win_placeholder": { "attachment": [ { "name": null } ] },
+        "mega_win_placeholder": { "attachment": [ { "name": null } ] },
+        "big_win2_placeholder": {
+          "color": [
+            {
+              "time": 1.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.4,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 1.6333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.8333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.1667,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 7.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 9.7333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 9.9,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 10.0667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 10.2333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 10.4,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "super_win2_placeholder": { "attachment": [ { "name": null } ] }
+      },
+      "bones": {
+        "Wins_text": {
+          "translate": [ { "x": 9 } ],
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.4,
+              "x": 1.45,
+              "y": 1.45
+            },
+            { "time": 1.6333 }
+          ]
+        },
+        "Wins_container": {
+          "scale": [
+            { "time": 1.6667 },
+            {
+              "time": 2.3333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 2.5,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 2.6667 },
+            {
+              "time": 4.6667,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 4.8333,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 5 },
+            {
+              "time": 7,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 7.1667,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 7.3333 },
+            {
+              "time": 9.7333,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 9.9,
+              "x": 1.25,
+              "y": 1.25
+            },
+            {
+              "time": 10.0667,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 10.2333,
+              "x": 1.25,
+              "y": 1.25
+            },
+            {
+              "time": 10.4,
+              "x": 1.1,
+              "y": 1.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.5667,
+              "x": 1.1,
+              "y": 1.1
+            }
+          ]
+        }
+      }
+    },
+    "MegaWin": {
+      "slots": {
+        "big_win_placeholder": {
+          "color": [ { "color": "ffffffff" } ],
+          "attachment": [
+            {
+              "time": 10.6667,
+              "name": null
+            }
+          ]
+        },
+        "mega_win2_placeholder": {
+          "color": [
+            {
+              "time": 14.4667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 14.6667,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 14.8667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 15.8,
+              "color": "ffffff00"
+            },
+            {
+              "time": 16.0333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 16.2667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 17.3667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 17.6,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 17.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 19.8667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 20.1,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 20.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 21.0333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 21.2667,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 21.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 22.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 22.5667,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 22.8,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 23.7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 23.8667,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 24.0333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 24.2,
+              "color": "ffffff93"
+            },
+            {
+              "time": 24.3667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            { "name": null },
+            {
+              "time": 14.4333,
+              "name": "mw"
+            }
+          ]
+        },
+        "super_win_placeholder": {
+          "color": [ { "color": "ffffffff" } ],
+          "attachment": [
+            { "name": null },
+            {
+              "time": 10.6667,
+              "name": "sw"
+            },
+            {
+              "time": 14.4333,
+              "name": null
+            }
+          ]
+        },
+        "mega_win_placeholder": {
+          "color": [ { "color": "ffffffff" } ],
+          "attachment": [
+            { "name": null },
+            {
+              "time": 14.4333,
+              "name": "mw"
+            }
+          ]
+        },
+        "big_win2_placeholder": {
+          "color": [
+            {
+              "time": 1.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.4,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 1.6333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.8333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.1667,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 7.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 9.3667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 9.5333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 9.7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 10.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 10.5333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 10.7333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "super_win2_placeholder": {
+          "color": [
+            {
+              "time": 10.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 10.8333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 11,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 11.6333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 11.8,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 11.9667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 12.7333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 12.9,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 13.0667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            { "name": null },
+            {
+              "time": 10.6667,
+              "name": "sw"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Wins_text": {
+          "translate": [ { "x": 9 } ],
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.4,
+              "x": 1.45,
+              "y": 1.45
+            },
+            {
+              "time": 1.6333,
+              "curve": "stepped"
+            },
+            { "time": 10.3333 },
+            {
+              "time": 10.5333,
+              "x": 1.4,
+              "y": 1.4
+            },
+            {
+              "time": 10.6667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 10.8333,
+              "curve": "stepped"
+            },
+            { "time": 14.2667 },
+            {
+              "time": 14.4333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 14.6,
+              "x": 1.4,
+              "y": 1.4
+            },
+            {
+              "time": 14.7667,
+              "curve": "stepped"
+            },
+            { "time": 23.7 },
+            {
+              "time": 23.8667,
+              "x": 1.153,
+              "y": 1.153
+            },
+            {
+              "time": 24.0333,
+              "x": 0.917,
+              "y": 0.917
+            },
+            {
+              "time": 24.2,
+              "x": 1.092,
+              "y": 1.092
+            },
+            { "time": 24.3667 }
+          ]
+        },
+        "Wins_container": {
+          "scale": [
+            { "time": 1.6667 },
+            {
+              "time": 2.3333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 2.5,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 2.6667 },
+            {
+              "time": 4.7,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 4.8667,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 5.0333 },
+            {
+              "time": 7,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 7.1667,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 7.3333 },
+            {
+              "time": 9.3667,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 9.5333,
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 9.7,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 10.5333,
+              "x": 1.1,
+              "y": 1.1
+            },
+            { "time": 10.8333 },
+            {
+              "time": 11.6333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 11.8,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 11.9667 },
+            {
+              "time": 12.7333,
+              "x": 1.035,
+              "y": 1.035
+            },
+            {
+              "time": 12.9,
+              "x": 1.215,
+              "y": 1.215
+            },
+            {
+              "time": 13.0667,
+              "x": 1.051,
+              "y": 1.051
+            },
+            {
+              "time": 14.1333,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 14.3667,
+              "x": 1.3,
+              "y": 1.3
+            },
+            {
+              "time": 14.6,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 15.8,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 16.0333,
+              "x": 1.3,
+              "y": 1.3
+            },
+            {
+              "time": 16.2667,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 17.3667,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 17.6,
+              "x": 1.3,
+              "y": 1.3
+            },
+            {
+              "time": 17.8333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 19.8667,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 20.1,
+              "x": 1.3,
+              "y": 1.3
+            },
+            {
+              "time": 20.3333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 21.0333,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 21.2667,
+              "x": 1.3,
+              "y": 1.3
+            },
+            {
+              "time": 21.5,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 22.3333,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 22.5667,
+              "x": 1.3,
+              "y": 1.3
+            },
+            {
+              "time": 22.8,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 23.7,
+              "x": 1.15,
+              "y": 1.15
+            }
+          ]
+        }
+      }
+    },
+    "SuperWin": {
+      "slots": {
+        "big_win_placeholder": {
+          "color": [ { "color": "ffffffff" } ],
+          "attachment": [
+            {
+              "time": 10.6667,
+              "name": null
+            }
+          ]
+        },
+        "mega_win2_placeholder": { "attachment": [ { "name": null } ] },
+        "super_win_placeholder": {
+          "color": [ { "color": "ffffffff" } ],
+          "attachment": [
+            { "name": null },
+            {
+              "time": 10.6667,
+              "name": "sw"
+            }
+          ]
+        },
+        "mega_win_placeholder": {
+          "color": [ { "color": "ffffffff" } ],
+          "attachment": [ { "name": null } ]
+        },
+        "big_win2_placeholder": {
+          "color": [
+            {
+              "time": 1.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.4,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 1.6333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.8333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.1667,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 7.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 9.3667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 9.5333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 9.7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 10.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 10.5333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 10.7333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "super_win2_placeholder": {
+          "color": [
+            {
+              "time": 10.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 10.8333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 11,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 11.6333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 11.8,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 11.9667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 12.9333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 13.1,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 13.2667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 14.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 14.5,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 14.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 15.5667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 15.7333,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 15.9,
+              "color": "ffffff00"
+            },
+            {
+              "time": 16.0667,
+              "color": "ffffff91"
+            },
+            {
+              "time": 16.2333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            { "name": null },
+            {
+              "time": 10.6667,
+              "name": "sw"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Wins_text": {
+          "translate": [ { "x": 9 } ],
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.4,
+              "x": 1.45,
+              "y": 1.45
+            },
+            {
+              "time": 1.6333,
+              "curve": "stepped"
+            },
+            { "time": 10.3333 },
+            {
+              "time": 10.5333,
+              "x": 1.4,
+              "y": 1.4
+            },
+            {
+              "time": 10.6667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 10.8333,
+              "curve": "stepped"
+            },
+            { "time": 15.5667 },
+            {
+              "time": 15.7333,
+              "x": 1.069,
+              "y": 1.069
+            },
+            {
+              "time": 15.9,
+              "x": 0.908,
+              "y": 0.908
+            },
+            {
+              "time": 16.0667,
+              "x": 1.105,
+              "y": 1.105
+            },
+            { "time": 16.2333 }
+          ]
+        },
+        "Wins_container": {
+          "scale": [
+            { "time": 1.6667 },
+            {
+              "time": 2.3333,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 2.5,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 2.6667 },
+            {
+              "time": 4.7,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 4.8667,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 5.0333 },
+            {
+              "time": 7,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 7.1667,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 7.3333 },
+            {
+              "time": 9.3667,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 9.5333,
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 9.7,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 10.5333,
+              "x": 1.1,
+              "y": 1.1
+            },
+            { "time": 10.8333 },
+            {
+              "time": 11.7667,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 11.9333,
+              "x": 1.2,
+              "y": 1.2
+            },
+            { "time": 12.1 },
+            {
+              "time": 12.8667,
+              "x": 1.035,
+              "y": 1.035
+            },
+            {
+              "time": 13.0333,
+              "x": 1.215,
+              "y": 1.215
+            },
+            {
+              "time": 13.2,
+              "x": 1.051,
+              "y": 1.051
+            },
+            {
+              "time": 14.3333,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 14.5667,
+              "x": 1.3,
+              "y": 1.3
+            },
+            {
+              "time": 14.8,
+              "x": 1.05,
+              "y": 1.05
+            },
+            {
+              "time": 15.5667,
+              "x": 1.1,
+              "y": 1.1
+            }
+          ]
+        }
+      }
+    },
+    "TotalWin": {
+      "slots": {
+        "mega_win2_placeholder": { "attachment": [ { "name": null } ] },
+        "super_win_placeholder": { "attachment": [ { "name": null } ] },
+        "mega_win_placeholder": { "attachment": [ { "name": null } ] },
+        "super_win2_placeholder": { "attachment": [ { "name": null } ] },
+        "glow2": {
+          "color": [
+            {
+              "time": 1.3,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.6333,
+              "color": "ffffffa6",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 2.2667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9667,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 3.3667,
+              "color": "ffffff73",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 4.0333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.1333,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 5.4667,
+              "color": "ffffff73",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 6.1333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.4667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.8,
+              "color": "ffffff73",
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 7.2667,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Wins_text": {
+          "translate": [ { "x": 9 } ],
+          "scale": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "glow2": {
+          "scale": [
+            {},
+            {
+              "time": 3.0667,
+              "x": 1.305,
+              "y": 1.305
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "phaser3-ts-spine-vite-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": {
+    "email": "leanhvu21042001@gmail.com",
+    "name": "Lê Anh Vũ"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "phaser": "^3.70.0",
+    "phaser3-rex-plugins": "^1.80.12"
+  }
+}
