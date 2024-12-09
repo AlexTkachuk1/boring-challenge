@@ -3,9 +3,9 @@ import "phaser/plugins/spine/dist/SpinePlugin";
 import SliderPlugin from 'phaser3-rex-plugins/plugins/slider-plugin.js';
 
 
-import {Boot} from "./scenes/Boot";
-import {Game} from "./scenes/Game";
-import {Preloader} from "./scenes/Preloader";
+import {Boot} from "./Scenes/Boot";
+import {Game} from "./Scenes/Game";
+import {Preloader} from "./Scenes/Preloader";
 
 
 const config: Phaser.Types.Core.GameConfig = {
