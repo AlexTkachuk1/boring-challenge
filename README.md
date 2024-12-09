@@ -1,1 +1,2 @@
-# Init game project
+# npm i
+# npm run dev
