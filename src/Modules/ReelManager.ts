@@ -1,5 +1,5 @@
 import { Scene } from "phaser";
-import { ArtKeys, getRandomSymbol } from "../scenes/Boot";
+import { ArtKeys, getRandomSymbol } from "../Scenes/Boot";
 import { EventNames, Symbol, Ticket } from "../Types";
 import { TicketManager } from "./TicketManager";
 
@@ -111,6 +111,8 @@ export class ReelManager {
         y: symbol.startY,
         duration: 300,
         ease: "Linear",
+        yoyo: true,
+        repeat: -1
       });
     }
 
