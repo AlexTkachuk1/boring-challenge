@@ -111,6 +111,8 @@ export class ReelManager {
         y: symbol.startY,
         duration: 300,
         ease: "Linear",
+        yoyo: true,
+        repeat: -1
       });
     }
 
